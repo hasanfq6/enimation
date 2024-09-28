@@ -21,7 +21,7 @@ Or if you are developing locally, you can install it in editable mode:
 pip install -e .
 ```
 
-##Basic Usage
+## Basic Usage
 
 To get started with the loading tool, follow these simple steps:
 
@@ -57,7 +57,7 @@ When the task is completed, call the stop() method to stop the animation:
 loader.stop()
 ```
 
-Example
+## Example
 
 Here’s a simple example of using CustomLoading:
 
@@ -74,9 +74,9 @@ long_running_task()
 loader.stop()
 ```
 
-##Advanced Usage
+## Advanced Usage
 
-#Custom Animations
+# Custom Animations
 
 You can create your own custom loading animations by defining a function that updates the loading display. For example:
 
@@ -94,7 +94,7 @@ long_running_task()
 loader.stop()
 ```
 
-##Using the Loading Decorator
+# Using the Loading Decorator
 
 The loading decorator can be used to automatically add loading animations to your functions. Here's how to use it:
 
@@ -108,7 +108,7 @@ def long_running_task():
 long_running_task()
 ```
 
-##Customizing the Decorator
+# Customizing the Decorator
 
 You can also pass a custom CustomLoading instance to the decorator:
 
@@ -122,7 +122,7 @@ def another_long_running_task():
 another_long_running_task()
 ```
 
-##Integration with Asynchronous Tasks
+# Integration with Asynchronous Tasks
 
 You can run the loading animation in a separate thread alongside your main tasks. For example:
 
@@ -138,15 +138,15 @@ loader.start()
 loader.stop()
 ```
 
-##Contributing
+## Contributing
 
 If you'd like to contribute to enimation, please fork the repository and submit a pull request. We welcome contributions of all kinds, including bug fixes, documentation improvements, and new features.
 
-##License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-##Contact
+## Contact
 
 For any inquiries or suggestions, feel free to reach out to:
 
