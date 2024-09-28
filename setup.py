@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='enimation',
-    version='0.1.3',
+    version='0.1.4',
     packages=find_packages(),
     description='A customizable loading tool',
     long_description=long_description,  # Use README.md content here
