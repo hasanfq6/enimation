@@ -4,7 +4,7 @@ import time
 
 list_animations()
 
-@loading(custom=blinking_arrows)
+@loading(custom=wave_animation)
 def long_task():
     time.sleep(5)
 
