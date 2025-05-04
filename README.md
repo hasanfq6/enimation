@@ -227,7 +227,7 @@ For any inquiries or suggestions, feel free to reach out to:
 
 hasan: hasanfq818@gmail.com
 
-GitHub: [here](https://github.com/Kamanati/enimation)
+GitHub: [here](https://github.com/hasanfq6/enimation)
 
 # enimation
 An animation function for python to higly customize you code with bueatyfull animation
